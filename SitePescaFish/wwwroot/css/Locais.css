@@ -1,0 +1,31 @@
+﻿body {
+    background-color: rgb(17, 114, 12);
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+.ttl-locais {
+    text-align: center;
+}
+.setor-locais {
+    width: 30rem;
+    height: 56rem;
+    float: right;
+    background-color: white;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+h3 {
+    text-align: center;
+}
+.imgLocais {
+    width: 23rem;
+    height: 23rem;
+    margin-left: 11%;
+}
+
+.nome-peixe {
+    margin-left: 25%;
+    margin-top: 5%;
+}

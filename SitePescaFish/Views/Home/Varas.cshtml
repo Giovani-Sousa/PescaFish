@@ -1,0 +1,28 @@
+﻿@model List<Varas>
+@{
+    ViewData["Title"] = "Varas";
+}
+<head>
+    <link rel="stylesheet" href="~/css/Varas.css" />
+</head>
+<h1>Varas</h1>
+<div class="setor-varas">
+    <img src="@Url.Content(@Model[0].CaminhoImg)" class="imgVara" />
+    <h3 class="nome-vara">@Model[0].NomeVara</h3>
+    <p class="subt-vara">@Model[0].SubtVara</p>
+</div>
+<div class="setor-varas">
+    <img src="@Url.Content(@Model[1].CaminhoImg)" class="imgVara" />
+    <h3 class="nome-vara">@Model[1].NomeVara</h3>
+    <p class="subt-vara">@Model[1].SubtVara</p>
+</div>
+<div class="setor-varas">
+    <img src="@Url.Content(@Model[2].CaminhoImg)" class="imgVara" />
+    <h3 class="nome-vara">@Model[2].NomeVara</h3>
+    <p class="subt-vara">@Model[2].SubtVara</p>
+</div>
+<div class="setor-varas">
+    <img src="@Url.Content(@Model[3].CaminhoImg)" class="imgVara" />
+    <h3 class="nome-vara">@Model[3].NomeVara</h3>
+    <p class="subt-vara">@Model[3].SubtVara</p>
+</div>

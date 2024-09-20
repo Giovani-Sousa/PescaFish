@@ -1,0 +1,30 @@
+﻿@model List<Peixes>
+@{
+    ViewData["Title"] = "Peixes";
+}
+<head>
+    <link rel="stylesheet" href="~/css/Peixes.css" />
+</head>
+<h1>Peixes</h1>
+<div class="setor-peixes">
+    <img src="@Url.Content(@Model[0].CaminhoImg)" class="imgPeixe" />
+    <h3 class="nome-peixe">@Model[0].NomePeixe</h3>
+    <p class="txtPeixe">@Model[0].TxtPeixe</p>
+</div>
+<div class="setor-peixes">
+    <img src="@Url.Content(@Model[1].CaminhoImg)" class="imgPeixe" />
+    <h3 class="nome-peixe">@Model[1].NomePeixe</h3>
+    <p class="txtPeixe">@Model[1].TxtPeixe</p>
+</div>
+<div class="setor-peixes">
+    <img src="@Url.Content(@Model[2].CaminhoImg)" class="imgPeixe" />
+    <h3 class="nome-peixe">@Model[2].NomePeixe</h3>
+    <p class="subt-peixe">@Model[2].TxtPeixe</p>
+</div>
+<div class="setor-peixes">
+    <img src="@Url.Content(@Model[3].CaminhoImg)" class="imgPeixe" />
+    <h3 class="nome-vara">@Model[3].NomePeixe</h3>
+    <p class="subt-vara">@Model[3].TxtPeixe</p>
+</div>
+
+

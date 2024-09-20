@@ -1,0 +1,30 @@
+﻿body {
+    background-color: rgb(17, 114, 12);
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.setor-varas {
+    width: 30rem;
+    height: 30rem;
+    float: right;
+    background-color: white;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.imgVara {
+    width: 20rem;
+    height: 20rem;
+    margin-left: 12%;
+}
+
+.nome-vara {
+    text-align: center;
+    margin-top: 5%;
+}
+.subt-vara {
+    text-align: center;
+}

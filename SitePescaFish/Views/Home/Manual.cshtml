@@ -1,0 +1,54 @@
+﻿@model SitePescaFish.Models.TxtManual
+
+@{
+    ViewData["Title"] = "View";
+}
+<head>
+    <link rel="stylesheet" href="~/css/Manual.css" />
+</head>
+<div id="div-intro">
+    <h1 class="ttl-manual">Manual de Pesca</h1>
+    <h3>Introdução</h3>
+    <p class="txt-manual">@Model.TxtIntro</p>   
+</div>
+<div id="div-equip">
+    <h3 class="ttl-manual">Equipamentos Básicos</h3>
+    <p class="txt-manual">@Model.TxtEquip1</p>
+    <p class="txt-manual">@Model.TxtEquip2</p>
+    <p class="txt-manual">@Model.TxtEquip3</p>
+    <p class="txt-manual">@Model.TxtEquip4</p>
+    <p class="txt-manual">@Model.TxtEquip5</p>
+</div>
+<div id="div-tipos">
+    <h3 class="ttl-manual">Tipos de Pesca</h3>
+    <p class="txt-manual">@Model.TxtTipos1</p>
+    <p class="txt-manual">@Model.TxtTipos2</p>
+    <p class="txt-manual">@Model.TxtTipos3</p>
+</div>
+<div id="div-tecn">
+    <h3 class="ttl-manual">técnicas de Lançamento</h3>
+    <p class="txt-manual">@Model.TxtTecn1</p>
+    <p class="txt-manual">@Model.TxtTecn2</p>
+</div>
+<div id="div-dicas">
+    <h3 class="ttl-manual">Dicas de sucesso</h3>
+    <p class="txt-manual">@Model.TxtDicas1</p>                                                                              
+    <p class="txt-manual">@Model.TxtDicas2</p>
+    <p class="txt-manual">@Model.TxtDicas3</p>
+    <p class="txt-manual">@Model.TxtDicas4</p>
+</div>
+<div id="div-seg">
+    <h3 class="ttl-manual">Segurança e Regulamentação</h3>
+    <p class="txt-manual">@Model.TxtSeg1</p>
+    <p class="txt-manual">@Model.TxtSeg2</p>
+    <p class="txt-manual">@Model.TxtSeg3</p>
+</div>
+<div id="div-manu">
+    <h3 class="ttl-manual">Manutenção do equipamento</h3>
+    <p class="txt-manual">@Model.TxtManu1</p>
+    <p class="txt-manual">@Model.TxtManu2</p>
+</div>
+<div id="div-conc">
+    <h3 class="ttl-manual">Conclusão</h3>
+    <p class="txt-manual">@Model.TxtConc1</p>
+</div>

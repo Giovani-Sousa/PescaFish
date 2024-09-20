@@ -1,0 +1,32 @@
+﻿body {
+    background-color: rgb(17, 114, 12);
+}
+.ttl-manual {
+    background-color: white;
+    color: black;
+}
+#div-intro {
+    margin-top: 5%;
+    background-color: white;
+}
+#div-equip {
+    background-color: white;
+}
+#div-tipos {
+    background-color: white;
+}
+#div-tecn {
+    background-color: white;
+}
+#div-dicas {
+    background-color: white;
+}
+#div-seg {
+    background-color: white;
+}
+#div-manu {
+    background-color: white;
+}
+#div-conc {
+    background-color: white;
+}

@@ -1,0 +1,67 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    background-color: rgb(17, 114, 12);
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.body-index {
+  margin-bottom: 60px;
+  background-image:url(../img/santos5.jpg);
+  background-size:cover;
+}
+.mapa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mapa img{
+ 
+    width:900px;
+    height:700px;
+    border-radius:2%;
+}
+
+ul{
+    margin-left:435px;
+    gap:50px;
+}
+
+
+.peixes-body{
+    height:100%;
+    background-color:white;
+}
+
+.h1-peixes{
+    text-align:center;
+    margin-bottom:250px;
+}
+
+.peixes-view{
+   
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:200px;
+}
+    .peixes-view img {
+        gap:200px;
+        width: 250px;
+        height: 270px;
+    }
+    .peixes-view b{
+        margin-left:70px;
+    }
